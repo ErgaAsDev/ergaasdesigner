@@ -1,0 +1,74 @@
+.cardHiddenLeft{
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(2px);
+    transform: translateX(-100%);
+    align-items: center;
+    /* min-height: 50vh; */
+}
+
+.cardHiddenRight{
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(2px);
+    transform: translateX(70%);
+    /* min-height: 50vh; */
+}
+
+
+
+.cardShowLeft{
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    gap: 10px;
+    text-align: center;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.cardShowRight{
+    opacity: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media screen and (max-width: 600px){
+    .cardHiddenLeft{
+        opacity: 0;
+        transition: all 1.5s;
+        filter: blur(2px);
+        transform: translateX(-50px);
+        align-items: center;
+        /* min-height: 50vh; */
+    }
+    .cardShowLeft{
+        display: flex;
+        flex-direction: column;
+        opacity: 1;
+        gap: 10px;
+        text-align: center;
+        filter: blur(0);
+        transform: translateX(0);
+    }
+    .cardHiddenRight{
+        opacity: 0;
+        transition: all 1.5s;
+        filter: blur(2px);
+        transform: translateX(50px);
+        /* min-height: 50vh; */
+    }
+    .cardShowRight{
+        opacity: 1;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        filter: blur(0);
+        transform: translateX(0);
+    }
+}

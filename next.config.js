@@ -3,4 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = module.exports = {
+  experimental: {
+    fontLoaders: [
+      { loader: '@next/font/google', options: { subsets: ['sans-serif'] } },
+    ],
+  },
+}
