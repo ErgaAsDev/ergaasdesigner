@@ -16,7 +16,7 @@ const Header = () => {
         <h2 className="text-lg md:text-xl text-[#525252] mt-[36px] mb-[12px] font-semibold">It's Time to Cultivate your Skills in Tech</h2>
         <div className="flex gap-1 text-2xl md:text-4xl font-semibold">
             <span className="text-[#525252]">Become Professional</span> 
-            <ul className="text-[#5ED600] h-[32px] md:h-[46px] overflow-x-hidden overflow-y-hidden" id="text-slide">
+            <ul className="text-[#5ED600] h-[32px] md:h-[44px] overflow-x-hidden overflow-y-hidden" id="text-slide">
                 <li><span>Data Scientist</span></li>
                 <li><span>Data Analyst</span></li>
                 <li><span>ML Engineer</span></li>
