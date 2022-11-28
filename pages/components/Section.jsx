@@ -28,17 +28,17 @@ const Section = () => {
       <div className='flex flex-col gap-[120px] items-center'>
       <div className='flex flex-col items-center justify-center md:flex md:flex-row md:items-center md:justify-center md:gap-[100px]'>
         <div ref={firstSection} className={`${styles.cardHiddenLeft} ${inView ? styles.cardShowLeft : ""}`}>
-          <h2 className='md:w-[400px] md:text-2xl text-center text-[#5ED600] font-semibold'>Live Classes by Industry Experts</h2>
-          <h2 className='md:w-[400px] md:text-xl'>Experienced experts in the industry will teach you in the following courses. You will learn everything from beginner to the most advanced concepts. <a href=''><span className='text-[#5ED600]'>Read more</span></a> </h2>
+          <h2 className='w-[320px] md:w-[400px] md:text-2xl text-center text-[#5ED600] font-semibold'>Live Classes by Industry Experts</h2>
+          <h2 className='w-[320px] md:w-[400px] md:text-xl'>Experienced experts in the industry will teach you in the following courses. You will learn everything from beginner to the most advanced concepts. <a href=''><span className='text-[#5ED600]'>Read more</span></a> </h2>
         </div>
         <Image 
         src={sectionOne}
-        className={`${styles.cardHiddenRight} ${inView ? styles.cardShowRight : ""}`}/>
+        className={`w-[240px] md:w-[360px] ${styles.cardHiddenRight} ${inView ? styles.cardShowRight : ""}`}/>
       </div>
       <div className='flex flex-col items-center justify-center mt-5 md:flex md:flex-row md:items-center md:justify-center md:gap-[100px]'>
         <Image 
         src={sectionSecond}
-        className={`${styles.cardHiddenLeft} ${secondView ? styles.cardShowLeft : ""}`}/>
+        className={`w-[240px] md:w-[360px] ${styles.cardHiddenLeft} ${secondView ? styles.cardShowLeft : ""}`}/>
         <div ref={secondSection} className={`${styles.cardHiddenRight} ${secondView ? styles.cardShowRight : ""}`}>
           <h2 className='md:w-[400px] md:text-2xl text-center text-[#5ED600] font-semibold'>Build Your Portfolio</h2>
           <h2 className='md:w-[400px] md:text-xl'>Not only in the class training, but also you will learn to build complex and real-world projects as your prove of study.</h2>
@@ -51,12 +51,12 @@ const Section = () => {
         </div>
         <Image 
         src={sectionThird}
-        className={`${styles.cardHiddenRight} ${thirdView ? styles.cardShowRight : ""}`}/>
+        className={`w-[240px] md:w-[360px] ${styles.cardHiddenRight} ${thirdView ? styles.cardShowRight : ""}`}/>
       </div>
       <div className='flex flex-col items-center justify-center mt-5 md:flex md:flex-row md:gap-[100px] '>
         <Image 
         src={sectionFourth}
-        className={`${styles.cardHiddenLeft} ${fourthView ? styles.cardShowLeft : ""}`}/>
+        className={`w-[240px] md:w-[360px] ${styles.cardHiddenLeft} ${fourthView ? styles.cardShowLeft : ""}`}/>
         <div ref={fourthSection} className={`${styles.cardHiddenRight} ${fourthView ? styles.cardShowRight : ""}`}>
           <h2 className='md:w-[400px] md:text-2xl text-center text-[#5ED600] font-semibold'>Get Hired</h2>
           <h2 className='md:w-[400px] md:text-xl'>Preparing you to get the knowledge, confidence, experience you need to face an interview and receive offers from any company.</h2>

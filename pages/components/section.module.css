@@ -42,7 +42,7 @@
         opacity: 0;
         transition: all 1.5s;
         filter: blur(2px);
-        transform: translateX(-50px);
+        transform: translateX(0px);
         align-items: center;
         /* min-height: 50vh; */
     }
@@ -57,9 +57,9 @@
     }
     .cardHiddenRight{
         opacity: 0;
-        transition: all 1.5s;
+        transition: all 1s;
         filter: blur(2px);
-        transform: translateX(50px);
+        transform: translateX(0px);
         /* min-height: 50vh; */
     }
     .cardShowRight{
