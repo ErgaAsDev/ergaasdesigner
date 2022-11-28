@@ -40,14 +40,14 @@ const Section = () => {
         src={sectionSecond}
         className={`w-[240px] md:w-[360px] ${styles.cardHiddenLeft} ${secondView ? styles.cardShowLeft : ""}`}/>
         <div ref={secondSection} className={`${styles.cardHiddenRight} ${secondView ? styles.cardShowRight : ""}`}>
-          <h2 className='md:w-[400px] md:text-2xl text-center text-[#5ED600] font-semibold'>Build Your Portfolio</h2>
-          <h2 className='md:w-[400px] md:text-xl'>Not only in the class training, but also you will learn to build complex and real-world projects as your prove of study.</h2>
+          <h2 className='w-[320px] md:w-[400px] md:text-2xl text-center text-[#5ED600] font-semibold'>Build Your Portfolio</h2>
+          <h2 className='w-[320px] md:w-[400px] md:text-xl'>Not only in the class training, but also you will learn to build complex and real-world projects as your prove of study.</h2>
         </div>
       </div>
       <div className='flex flex-col items-center justify-center mt-5 md:flex md:flex-row md:items-center md:justify-center md:gap-[100px]'>
         <div ref={thirdSection} className={`${styles.cardHiddenLeft} ${thirdView ? styles.cardShowLeft : ""}`}>
-          <h2 className='md:w-[400px] md:text-2xl text-center text-[#5ED600] font-semibold'>Grow Your Network</h2>
-          <h2 className='md:w-[400px] md:text-xl'>Community in Cultigo has uniques people, you can collaborate one and another to foster your learning.</h2>
+          <h2 className='w-[320px] md:w-[400px] md:text-2xl text-center text-[#5ED600] font-semibold'>Grow Your Network</h2>
+          <h2 className='w-[320px] md:w-[400px] md:text-xl'>Community in Cultigo has uniques people, you can collaborate one and another to foster your learning.</h2>
         </div>
         <Image 
         src={sectionThird}
@@ -58,8 +58,8 @@ const Section = () => {
         src={sectionFourth}
         className={`w-[240px] md:w-[360px] ${styles.cardHiddenLeft} ${fourthView ? styles.cardShowLeft : ""}`}/>
         <div ref={fourthSection} className={`${styles.cardHiddenRight} ${fourthView ? styles.cardShowRight : ""}`}>
-          <h2 className='md:w-[400px] md:text-2xl text-center text-[#5ED600] font-semibold'>Get Hired</h2>
-          <h2 className='md:w-[400px] md:text-xl'>Preparing you to get the knowledge, confidence, experience you need to face an interview and receive offers from any company.</h2>
+          <h2 className='w-[320px] md:w-[400px] md:text-2xl text-center text-[#5ED600] font-semibold'>Get Hired</h2>
+          <h2 className='w-[320px] md:w-[400px] md:text-xl'>Preparing you to get the knowledge, confidence, experience you need to face an interview and receive offers from any company.</h2>
         </div>
       </div>
       <div className=''>
