@@ -1,0 +1,81 @@
+#icon {
+  animation: iconAnimation 3s linear infinite; /* Adjust the animation duration as needed */
+}
+
+@keyframes iconAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-500px) rotate(180deg); /* Adjust the value for the desired upward translation */
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0) rotate(360deg);
+  }
+}
+
+#iconSmile {
+  animation: iconAnimationSmile 4s linear infinite; /* Adjust the animation duration as needed */
+}
+
+@keyframes iconAnimationSmile {
+  0% {
+    opacity: 0;
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-600px) rotate(180deg); /* Adjust the value for the desired upward translation */
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0) rotate(360deg);
+  }
+}
+#iconThumb {
+  animation: iconAnimationThumb 5s linear infinite; /* Adjust the animation duration as needed */
+}
+
+@keyframes iconAnimationThumb {
+  0% {
+    opacity: 0;
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(700px) rotate(180deg); /* Adjust the value for the desired upward translation */
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0) rotate(360deg);
+  }
+}
+#iconPlane {
+  animation: iconAnimationPlane 3s linear infinite; /* Adjust the animation duration as needed */
+  overflow: hidden;
+}
+
+@keyframes iconAnimationPlane {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(
+      1700px
+    ); /* Adjust the value for the desired upward translation */
+  }
+}
