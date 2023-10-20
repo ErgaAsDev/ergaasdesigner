@@ -95,6 +95,26 @@ const Cards = ({ hexColor }) => {
             </a>
           </div>
         </div>
+        <div
+          className={styles.card}
+          style={{
+            backgroundImage: `url("https://www.telegraph.co.uk/content/dam/food-and-drink/2019/01/11/TELEMMGLPICT000185036503_trans_NvBQzQNjv4Bq8m3xuhMyFOjUOkuEnTdW-M-bhHwB87o-r13mliye62g.jpeg?imwidth=960")`,
+          }}
+        >
+          <div className={styles.content}>
+            <p className={styles.copy}>
+              I created an cook recipes app with search feature and detail pages
+              with React (Vite) and SCSS
+            </p>
+            <a
+              href="https://eatncook.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className={styles.btn}>Live Site</button>
+            </a>
+          </div>
+        </div>
       </main>
     </div>
   );
