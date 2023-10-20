@@ -95,24 +95,46 @@ const Cards = ({ hexColor }) => {
             </a>
           </div>
         </div>
-        <div
-          className={styles.card}
-          style={{
-            backgroundImage: `url("https://www.telegraph.co.uk/content/dam/food-and-drink/2019/01/11/TELEMMGLPICT000185036503_trans_NvBQzQNjv4Bq8m3xuhMyFOjUOkuEnTdW-M-bhHwB87o-r13mliye62g.jpeg?imwidth=960")`,
-          }}
-        >
+        <div className={styles.card}>
+          <div className={styles.content}>
+            <p className={styles.copy}>
+              Explore a curated selection of visually stunning and user-friendly
+              dashboard designs that cater to diverse industries and needs. From
+              sleek and modern corporate dashboards to vibrant and data-driven
+              analytics interfaces, my UI kit demonstrates a keen eye for design
+              aesthetics and a deep understanding of user experience.
+            </p>
+            <a
+              href="https://www.figma.com/file/wc3AnwuXBjfV5Wh86RGCJ4/Dashboards-UI-Kit?type=design&node-id=0-2319&mode=design&t=Sj65g0rDR6Hhd4UF-0"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className={styles.btn}>View</button>
+            </a>
+          </div>
+        </div>
+        <div className={styles.card}>
           <div className={styles.content}>
             <p className={styles.copy}>
               I created an cook recipes app with search feature and detail pages
               with React (Vite) and SCSS
             </p>
-            <a
-              href="https://eatncook.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button className={styles.btn}>Live Site</button>
-            </a>
+            <div className="flex gap-4">
+              <a
+                href="https://eatncook.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className={styles.btn}>Live</button>
+              </a>
+              <a
+                href="https://github.com/ErgaAsDev/cmlabs-frontend-fulltime-test"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className={styles.btn}>Source</button>
+              </a>
+            </div>
           </div>
         </div>
       </main>

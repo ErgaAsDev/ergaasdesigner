@@ -1,5 +1,6 @@
 $imageIds: "9NwPb8k/Variant1.png", "7NkxdWz/Variant2.png",
   "p1H5VdQ/Variant3.png", "TqXYz5m/Variants-Variant-4.png",
+  "hgrHSCT/Variants-Variants5.png",
   "ys19WqN/screencapture-eatncook-netlify-app-2023-10-20-09-59-57.png";
 
 $bp-md: 600px;
@@ -9,7 +10,7 @@ $bp-lg: 800px;
   display: grid;
   grid-gap: 1rem;
   padding: 1rem;
-  max-width: 620px;
+  max-width: 600px;
   margin: 0 auto;
   font-family: var(--font-sans);
 
@@ -94,7 +95,7 @@ $bp-lg: 800px;
       // display: block;
       // width: 500px;
       // // height: 100px;
-      background-size: contain;
+      background-size: cover;
       background-repeat: repeat;
       background-image: url(https://i.ibb.co/#{$id});
     }
