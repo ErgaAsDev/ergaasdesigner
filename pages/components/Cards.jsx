@@ -6,14 +6,13 @@ import { BsFillRocketTakeoffFill } from "react-icons/bs";
 // //
 const dataArray = [
   {
-    id: 1,
-    copy: "A responsive modern UI crypto landing page and dashboard.",
+    id: 4,
+    copy: "Experience the future of car rentals with Maurental, a groundbreaking application meticulously designed by me on Figma. Maurental sets a new standard for convenience and efficiency in the world of car rentals, combining sleek aesthetics with intuitive functionality.",
     viewButton: "View",
-    liveButton: "Live",
     linkFigma:
-      "https://www.figma.com/file/q1HfDdoZLdBv01x127OWLw/Cryptoon---Portfolio?type=design&node-id=0%3A1&mode=design&t=Bdi9vKbsZQoE2B9f-1",
-    linkLive: "https://cryptoon-cryptopages.vercel.app/",
+      "https://www.figma.com/file/pukITyPXyRhZqKAw8fLaIR/Maurental---Portfolio?type=design&node-id=1-55041&mode=design&t=v1TSmvbaLyIeaTn7-0",
   },
+
   {
     id: 2,
     copy: "Introducing Jobizz, the game-changing mobile app that transforms your job search into a dynamic and empowering journey.",
@@ -29,11 +28,13 @@ const dataArray = [
       "https://www.figma.com/file/XYvODOSrV1LyxaKwjNLsL5/Mobility---Portfolio?type=design&node-id=1%3A7534&mode=design&t=z2j0WauznHppEv0P-1",
   },
   {
-    id: 4,
-    copy: "Experience the future of car rentals with Maurental, a groundbreaking application meticulously designed by me on Figma. Maurental sets a new standard for convenience and efficiency in the world of car rentals, combining sleek aesthetics with intuitive functionality.",
+    id: 1,
+    copy: "A responsive modern UI crypto landing page and dashboard.",
     viewButton: "View",
+    liveButton: "Live",
     linkFigma:
-      "https://www.figma.com/file/pukITyPXyRhZqKAw8fLaIR/Maurental---Portfolio?type=design&node-id=1-55041&mode=design&t=v1TSmvbaLyIeaTn7-0",
+      "https://www.figma.com/file/q1HfDdoZLdBv01x127OWLw/Cryptoon---Portfolio?type=design&node-id=0%3A1&mode=design&t=Bdi9vKbsZQoE2B9f-1",
+    linkLive: "https://cryptoon-cryptopages.vercel.app/",
   },
   {
     id: 5,
