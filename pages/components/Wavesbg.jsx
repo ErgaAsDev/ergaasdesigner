@@ -16,12 +16,12 @@ const Wavesbg = ({ hexColor, animate }) => {
         color={hexColor}
       />
 
-      <PiPaperPlaneRightDuotone
+      {/* <PiPaperPlaneRightDuotone
         size={50}
         className={`absolute left-[-40px] top-[50px] ${!animate && "hidden"}`}
         id={animate ? styles.iconPlane : ""}
         color={hexColor}
-      />
+      /> */}
 
       <BsFillHandThumbsUpFill
         size={40}
