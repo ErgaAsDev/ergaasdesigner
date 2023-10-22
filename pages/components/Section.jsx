@@ -20,10 +20,29 @@ const Section = ({ hexColor }) => {
     <div className="flex flex-col items-center">
       <h1
         style={{ backgroundColor: `${hexColor}` }}
-        className="h-[80px] md:h-[120px] w-[100%] -z-20 flex items-center justify-center text-4xl text-[#FFF] font-bold mb-7"
+        className="h-[80px] md:h-[220px] w-[100%] -z-20 flex items-center justify-center text-4xl text-[#FFF] font-bold mb-7"
       >
         About Me
       </h1>
+      <svg
+        id="waves"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28"
+        preserveAspectRatio="none"
+        shape-rendering="auto"
+        className="rotate-180 absolute top-[-30px]"
+      >
+        <defs>
+          <path
+            id="gentle-wave"
+            d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+          />
+        </defs>
+        <g id="parallax">
+          <use xlinkHref="#gentle-wave" x="50" y="-2" fill={`${hexColor}`} />
+        </g>
+      </svg>
       <div className="flex flex-col gap-[120px] items-center">
         <div className="flex flex-col items-center justify-center md:flex md:flex-row md:items-center md:justify-center md:gap-[100px]">
           <div
