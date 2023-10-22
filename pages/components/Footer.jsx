@@ -27,7 +27,7 @@ const Footer = ({ hexColor }) => {
                 rel="noreferrer"
               >
                 <i className="fab fa-linkedin-f">
-                  <Image src={linkedin} />
+                  <Image src={linkedin} alt="linkedin" />
                 </i>
               </a>
             </span>
@@ -41,7 +41,7 @@ const Footer = ({ hexColor }) => {
                 rel="noreferrer"
               >
                 <i className="fab fa-twitter">
-                  <Image src={dribble} />
+                  <Image src={dribble} alt="dribble" />
                 </i>
               </a>
             </span>
@@ -55,7 +55,7 @@ const Footer = ({ hexColor }) => {
                 rel="noreferrer"
               >
                 <i className="fab fa-github">
-                  <Image src={github} />
+                  <Image src={github} alt="github" />
                 </i>
               </a>
             </span>
