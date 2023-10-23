@@ -41,7 +41,7 @@
     transform: translateY(0) rotate(360deg);
   }
 }
-#iconThumb {
+#iconJS {
   animation: iconAnimationThumb 5s linear infinite; /* Adjust the animation duration as needed */
 }
 
@@ -52,7 +52,7 @@
   }
   50% {
     opacity: 1;
-    transform: translateY(700px) rotate(180deg); /* Adjust the value for the desired upward translation */
+    transform: translateY(-700px) rotate(180deg); /* Adjust the value for the desired upward translation */
   }
   85% {
     opacity: 1;

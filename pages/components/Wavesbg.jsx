@@ -1,13 +1,14 @@
 import styles from "./icon.module.css";
-import { BiCubeAlt } from "react-icons/bi";
+import { BiLogoFigma } from "react-icons/bi";
+import { BiLogoJavascript } from "react-icons/bi";
 import { BiSolidSmile } from "react-icons/bi";
-import { BsFillHandThumbsUpFill } from "react-icons/bs";
+import { AiFillHtml5 } from "react-icons/ai";
 import { PiPaperPlaneRightDuotone } from "react-icons/pi";
 
 const Wavesbg = ({ hexColor, animate }) => {
   return (
     <div className="mt-[120px]">
-      <BiCubeAlt
+      <BiLogoFigma
         size={80}
         className={`absolute left-[60px] md:left-[170px] ${
           !animate && "hidden"
@@ -23,12 +24,20 @@ const Wavesbg = ({ hexColor, animate }) => {
         color={hexColor}
       /> */}
 
-      <BsFillHandThumbsUpFill
+      <AiFillHtml5
         size={40}
         className={`absolute right-[120px] md:right-[300px] ${
           !animate && "hidden"
         }`}
         id={animate ? styles.iconSmile : ""}
+        color={hexColor}
+      />
+      <BiLogoJavascript
+        size={50}
+        className={`absolute right-[250px] md:right-[500px] ${
+          !animate && "hidden"
+        }`}
+        id={animate ? styles.iconJS : ""}
         color={hexColor}
       />
 
